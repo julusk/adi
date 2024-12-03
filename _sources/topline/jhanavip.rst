@@ -1,0 +1,61 @@
+.. _Jhanavip:
+
+Vipashyana within the Jhanas - Anatma and Dukkha 
+======================================================
+
+Introduction
+------------------------------------
+This post attempts to explain how concentration practice, particularly the Jhanas can be used to generate insight. Being a highly constructed state with mind created objects in attention and awareness, the Jhanas do not easily lend themselves to gain insight into Anitya or unreliability ... particularly if you are able to do them well. Therefore here we consider how to uncover some markers of Anatma as well as dukkha in doing the Dhyanas.
+
+The exercise assumes a lot of competence in doing the Dhyanas and it is profitable to spend a sufficient amount of time in doing them to gain proficiency before taking on this instruction set. Ideally you should be able to do them in order - going up, down, completely out of order and basically be very comfortable with the fact that sometimes the mind simply isn't able to do them. Yet on good days you should have the proficiency to simply sit down, take a deep breath and just enter the Jhana of your choice ... on demand. Whole body, pleasure, nimitta, sutta based, commentary based - doesn't matter. They need to be absorptions! In the absence of this kind of proficiency I do not know how much traction you may get with this instruction set, but bits and pieces of it can certainly be done even if not in one go.
+
+I am a practitioner, not a teacher, not an expert. I write from direct personal experience and I write as if I were giving instructions because it is an easier writing style. I reference two different systems TMI and MIDL in this article. I do not have any kind of authorization from anybody whomsoever to talk about these systems. My understanding is colored by my own cognitive biases. So basically ... Caveat Emptor!
+
+Vipashyana
+------------------------------------
+It is important for this rule set that you understand and can do vipashyana. It is not as simple as just being mindful. You have to be mindful of the very act of being mindful. Strangely recursive!
+
+The prefix 'vi' in Indic languages is usually indicative of a mild difference. For example 'tarka' and 'vi'tarka are point and counter point. but in some cases the prefix indicates a radical deviance from the norm. For example prakruti is nature and 'vi'kruti is a radically deviant nature. The act of wooing a person one desires and bedding them (in case successful) is considered part and parcel of the prakruti of being a human being. The act of wearing nothing but a raincoat and hiding behind the bushes to jump out and shock some passerby in order to get one's jollies would be considered 'vi'kruti.
+
+The act of staring at 'objects' trying to discern their nature is pashyana or seeing. Here the arrow of attention is unidirectional and pointed towards the object. Vipashyana is the emergence through practice of the arrow of attention which is bi-directional!! staring at that which is being observed and the process of observation itself, to know that which is known and the know the process of knowing itself, seeing the process of perception and apperception at the same time thereby gaining transformative knowledge, wisdom and eventually dispassion. An illustration of this is the process of seeing impermanence of an object and simultaneously seeing the mind experiencing unreliability and simultaneously realizing that the mind seeks reliability and nothing absolutely nothing in life can be relied upon due to it being impermanent. This strange recursive thingamabob is Vipashyana. It is not a system of practice but a way of seeing. It is the seeing that frees. It happens naturally as one practices but can and should be addressed as a skill rather than as manna from heaven dropping down due to grace. Basically practice in order to make yourself prone to receiving this manna, or better still reach up and grab some manna for yourself.
+
+This shocking nature of it cannot be explained conceptually but it can be experienced many many times when cessations arise through the door of impermanence. That split second before a cessation, when all of reality converges into one 'screen' where the observer is also the observed, where not just the observer but also the very process of observation is also projected onto the screen. Where one-liner champions do drive by comments (whether they understand their own words .. or not) ... **'the painter is in the picture'**. This is where you see the housebuilder peacefully building the house. This is vipashyana - and it can be cultivated. It is required to make this particular rule set a success. But just as any other shocking thing, once it becomes the norm it is no longer shocking. If you see naked dudes jumping from behind the bushes at the corner whenever you pass by a bush - chances are sooner or later you will start to get less and less surprised.
+
+This is not a natural state you can maintain, it is not a state in which you want to 'abide' in nor should you aspire to. It is itself after all a 'vikruti', a perversion, a middle finger shown to nature and to evolution. It is a strange, unnatural configuration of the faculties of our mind that we selectively use towards a specific objective and then simply abandon. If we fetishize this and try and stay in this, then we run the very real risks of being gored by a cow or run over by a bus.
+
+For cultivating vipashyana a good start is the TMI rule set within which is addressed the skill of MIA. It can also be cultivated and then honed to perfection using intentional and deliberate practice as suggested in the MIDL system towards the very end of the 52 guided meditations program. Here are links that you can check out:
+
+`Mindfulness of knowing - part 1 <https://soundcloud.com/user-677685629/midl-mindfulness-training-4952-mindfulness-of-knowing-pt1>`_
+
+`Mindfulness of knowing - part 2 <https://soundcloud.com/user-677685629/midl-mindfulness-training-5052-mindfulness-of-knowing-pt2>`_
+
+Within the MIDL system these are considered advanced skills and the guidance assumes that you have done the work that comes before. But go ahead and listen to it anyway, see if it helps - I don't think you will break anything. Its possible that you may face some disappointment but nothing ventured nothing gained!
+
+Preliminary exercise - mantra meditation
+------------------------------------------------------------------------
+    1. This exercise is required to create a set up that can be replicated inside the jhanas. You want to be very mindful of what you yourself are doing here so that you remember to do it and avoid discursively searching for what to do within an absorption thus interrupting the flow
+    2. You are doing this exercise specifically to learn what I like to call 'unhooking'
+    3. Choose a mantra. A monosyllable preferably one that doesn't give you 'spiritual feels'. I use my own name - Adi ... Adi ... Adi. If you choose something spiritual sounding, it will most likely be an obstruction - an additional problem to deal with
+    4. Get really really concentrated. Attention focused on the task at hand, awareness far and wide and brilliantly powerful
+    5. While doing the exercise notice very carefully that there are three distinct things that are happening. The act of creation of a mental sound, the act of hearing of a mental sound, the act of being aware that all of this strange circus is going on
+    6. Get deeply interested in the act of creation of the mental sound. Raise the volume, lower the volume, make it shrill, make it pleasing, use your dad's voice, use your mom's voice, use your own voice
+    7. Strongly intend that the act of creation of this sound continue without your running interference and just simply unhook your sense of self from the act of creation of this sound like plucking out a post it note and sticking it on to the act of hearing this sound. If you are unable to do this, then some good preparatory practice will be the 'softening into' techniques of MIDL. You 'soften into' the claim of ownership you have over the act of creation of the sound until you can 'unhook'. The creator of the MIDL system most probably did not intend his tech to be used in this way and thus the techniques are taught in a totally different way. But once learnt they port wonderfully to this exercise
+    8. Stay with the act of hearing this sound for a while and then unhook the sense of self from the act of hearing this sound. The post it note has nowhere else to go so it simply goes and sticks itself to the general awareness of everything including this strange mantra gymnastics
+    9. The Uber unhooking involves unhooking from the sense of being the one who is aware - this in and by itself is very challenging and you may not be able to do this ... yet! and that's a project for some other day perhaps
+    10. Do the hook and unhook many many times till its understood that the hooking is habitual and the unhooking requires some dexterity and you have the confidence that you have that dexterity
+    11. This 'unhooking' is the skill and the muscle memory we want to carry into the absorptions
+    12. You need to do all of the above while intentionally doing vipashyana and not pashyana. Or through doing such activity vipashyana may happen. Try and continue it - either way is fine
+    13. I have it from a reliable source that such practice comes in some secret ceremony in some pith instructions of some tradition - If you believe such things ... well it can be self limiting - Simply set all that superstition aside
+
+Jhana practice - Anatma and Dukkha
+------------------------------------------------------------------------
+    1. Practice the Jhanas for a while going up and down the entire Jhana arc. If you only know a couple of Jhanas that's fine as well but the payoff is higher when you bring this exercise into play when you know all eight of them
+    2. Vipashyana does not yield fruit inside states - it yields fruit inside state changes. The Jhana transitions are our target
+    3. Go to the first Jhana and slowly start moving up the numerical order
+    4. In every transition through vipashyana notice that there is always - always a sense that 'I am doing this'. I am taking the decision to move from one Jhana to the next. There are multiple entities inside a transition. There is an 'I', there is a decision, there is an intention, there is the act of executing the intention
+    5. Once you are deeply familiar with the transitions go back to Jhana 1 and start moving up, and this time in each transition unhook from the decision, the intention, the execution. The fact that 'you' or 'I' or the 'sense of self' is not really required becomes apparent. Decisions happen, intentions are formed, they are executed ... 'you' are redundant! This insight into Anatma slaps you in the face many many times
+    6. Once you are nicely and properly unhooked from the act of doing the Jhanas (where are you now hooked? ... doesn't matter, not for this exercise) go back to Jhana 1
+    7. Observe your mind. The mind simply takes a Jhana looks at it, decides that it just ain't enough and moves up, keeps moving up, doesn't stop. This time the transition might be slow and leisurely and perhaps it might be really rapid. In any case, 'you' aren't really doing anything. 'You' are stuck like a post it note somewhere to the extreme periphery of the action. Vipashyana will tell you how when stuff is unsatisfactory the mind experiences many of the fetters - apprehends them. You will see the handcuffs .. hopefully .. else at the minimum you will be slapped again and again by the insight into Dukkha.
+    8. If you execute the preliminary practice or the jhana practice with elan, if you unhook like a boss - you can fully expect cessations particularly in the higher jhanas of the formless variety. While these are nice they are also in a way impediments to deep learning. Every time one happens you may feel - now, why am I doing this anymore? Ignore that, get started again till the timer dings.
+
+Thank you for reading. Any and every comment is most welcome. Those that come from direct experience or inner authority might be the most valuable for me and other readers.

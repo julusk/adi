@@ -1,0 +1,543 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Chapter 1 - A theoretical foundation for the project &#8212; Adivader</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'awakeningproject/chapter1';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Essays on meta level advice, approach, attitude etc." href="meta.html" />
+    <link rel="prev" title="Preface" href="preface.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">Adivader</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">The Awakening Project</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="preface.html">Preface</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Chapter 1 - A theoretical foundation for the project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="meta.html">Essays on meta level advice, approach, attitude etc.</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Topline Posts</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../topline/poi1.html">Progress of Insight Part 1 (Anitya Dukkha Anatma)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/poi2.html">Progress of Insight Part 2 - Insight into Anatma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/poi3.html">Progress of Insight Part 3 - Dukkha</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/shrotapanna.html">Shrotapanna marg Shrotapanna phal - Notes for a friend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/streamentry.html">Notes on Stream Entry - 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/anagami.html">Anagami Marga, Anagami Phal - Notes for a friend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/arhat.html">Arhat Marga Arhat Phal - Notes for a friend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/anatma.html">Vipashyana geared towards the quality of Anatma - Not-Self</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/thoughts.html">Mindfulness meditation on thoughts and the thinking process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/deconditioning.html">Deconditioning Emotional charge</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/jhanavip.html">Vipashyana within the Jhanas - Anatma and Dukkha</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/breath.html">The Breath Nimitta - Protocol and explanation on aud</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/tranquility.html">The deliberate cultivation of tranquility</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/softening.html">Softening into - what I gained and learnt from it</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/stillpoint.html">Alternative approach to TMI - still point and witness practice</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/nirvikalpa.html">The MIDL practice of Nirvikalpa Samadhi (allowing stillness) leading to Nirodha Sampatti</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/nirodha.html">A comparison of cessation in the Progress Of Insight, and Nirodha Sampatti</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/balance.html">Practices to balance attention and awareness - Relief from head pressure and coarse piti</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/metta.html">The strategic use of metta meditation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/tough.html">When practice becomes tough</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topline/log.html">Creating and maintaining a log of formal meditation sessions</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/awakeningproject/chapter1.rst" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.rst</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Chapter 1 - A theoretical foundation for the project</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-scope">Project scope</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dukkha-the-suckiness">Dukkha - The Suckiness</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sanyojana-fetters-that-bind-us-to-a-world-of-suffering-or-samsara">Sanyojana (Fetters that bind us to a world of suffering - or samsara)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-broad-structure-of-the-awakening-project">The Broad Structure of the Awakening Project</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="chapter-1-a-theoretical-foundation-for-the-project">
+<span id="awakeningprojectchapter1"></span><h1>Chapter 1 - A theoretical foundation for the project<a class="headerlink" href="#chapter-1-a-theoretical-foundation-for-the-project" title="Link to this heading">#</a></h1>
+<section id="project-scope">
+<h2>Project scope<a class="headerlink" href="#project-scope" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>In life we experience a great deal of negative valence associated with ‘Dukkha’ … or suffering … which in turn is a result of how we process that which we perceive. The cognitive friction which comes about in the interplay between perception and apperception. Deeply rooted mental models coloring our experience of our lives. This negative valence is pervasive always hidden just below the very surface of the hyper distracted mind. The negative valence is sometimes noticeable enough to be recognized and sometimes so strong that it drives us into despair. <strong>Basically our experience of our lives sucks - to varying degrees!!</strong></p></li>
+<li><p>The processing of what we perceive happens in a set describable pattern or chain of mental events. This pattern is marked by the very first heavily practiced reactionary movement of the mind called Trishna in Sanskrit (Tanha in Pali, Thirst in English). Trishna comes into play against all sense contact. The very act of being alive and conscious but ignorant of this chain of events and therefore helpless before it, creates a potential to feel sucky all the time! <strong>The suckiness is kicked off by Trishna</strong></p></li>
+<li><p>We can teach the mind to first recognize this pattern, clearly discerning each and every mental event and then interrupt it at various points in the chain. As we go about our lives we can keep releasing ourselves from dukkha. And finally learn not to ‘thirst’ not to do the Trishna-ing …. at all! …. for anything! Thus never again experiencing Dukkha. <strong>The suckiness can stop</strong></p></li>
+<li><p>The Awakening Project is meant to teach the reader how to do this. It presents the theoretical models that we need to accept as a guide in order to practice and free the mind from Dukkha. The theory in The Awakening Project is not a philosophical description of how things really are. Standalone, the theory has absolutely no power to create knowledge and wisdom of the kind that comes from direct experience in practice. It is this direct experience which is needed to free us from Dukkha. The theory has to be used to guide practice. We cultivate the self observational skills required, then we apply those skills towards studying how the mind works to create Dukkha. Through this skill building and self observation comes about knowledge of the mind’s workings, the wisdom required to manage the mind and finally the dispassion towards the mechanisms that create Dukkha. And then we are free. The Awakening Project uses theory to set a context for precisely designed practices. Learn the theory and hold it very lightly like a hypothesis to be tested through practice. Like a vector to support and direct the practices. Use the theory and practices to begin training the mind and create the necessary causes and conditions required for a trained mind to free itself. <strong>The practices of the Awakening project done diligently lead to the end of suckiness.</strong></p></li>
+</ol>
+</section>
+<section id="dukkha-the-suckiness">
+<h2>Dukkha - The Suckiness<a class="headerlink" href="#dukkha-the-suckiness" title="Link to this heading">#</a></h2>
+<p>Imagine a proto human, devoid of what we recognize as higher order, critical, rational thinking and wisdom gained thereby, but replete with simple and ruthlessly effective cognitive tendencies that are usually latent but, upon being triggered, express themselves as compulsions. These are the Anusayas or latent tendencies (also called Sanyojanas or fetters or handcuffs).</p>
+<p>These Sanyojana are the source of the compulsory cognitive decisions or evaluations which may or may not find expression in outwardly behavior. The proto human’s mind is capable of accepting contact (or Sparsh)– from the environment as well as self-generated contact in terms of memory and imagination. A simple sorting mechanism operates on that contact in order to sort experience into positive, negative, and neutral valence (or Vedana). From this point onwards the automated, habituated, strongly practiced compulsions take over using a sequence of cognitive activity which has a set pattern called Idampratyayata (Specific Conditionality) or Pratitya Samutpad (Dependent Origination). Driving all further cognitive decision making. Food – looks good – Eat it!, Predator – looks bad – run! Potential mate – looks good – chase them! Simple, effective, brilliant!</p>
+<p>Imagine a fully formed human. This human is the proto human plus wisdom gained through critical / rational thinking or <a class="reference external" href="https://www.learnsanskrit.cc/translate?search=bodhi&amp;dir=se">Bodhi</a>.</p>
+<p>Rational thinking accepts many data points, relies heavily on accumulated life experiences and not just the immediacy of contact and its sorting and arrives at .. well .. rational informed decisions. This property is called ‘Buddhi’ - “the intellectual faculty and the power to form and retain concepts, reason, discern, judge, comprehend, understand” which is the root of the abstract noun ‘Bodhi’.</p>
+<p>Dukkha is the near constant grating, friction between the imperatives generated by the compulsions and the evaluations of the rational mind. If we were only proto humans – life will be full of pleasure and pain, there would be no friction whatsoever. But we aren’t! All of life’s circumstances comprise two categories – those where the two mechanisms of the mind are in agreement and those where it is not. In case of disagreement - If the rational mind is subordinated to the compulsions then in the here and now Dukkha does not exist, but it creates a potential for future dukkha – the can is kicked down the road - Guilt, Regret, Remorse! If compulsions are subordinated to the rational mind – there is continuous tension – dukkha in the here and now - Anger, frustration, irritation, agitation, danger, ‘something is off’ - that may be manageable but just wont go away! This is complicated by the fact that both of these mechanisms can and are strengthened or weakened by which one is being given energy and power, which one wins … sense contact by sense contact! Thus our actions in the here and now determine or at least load the dice in choosing our actions in the future.</p>
+<p>To take a simplistic example, imagine a married, middle aged career professional with two kids. Now imagine the very attractive intern who recently joined the workplace. Our fictitious intern has taken a shine to our fictitious professional. For the professional, contact is strong, vedana is positive and the compulsions are driving them to …. …. well you know! Compulsions say … give chase, rational thinking says … dude/dudette you are married, two children, a fine upstanding member of society, well respected .. think! …. don’t just act! If the hero of our little story were to subordinate the compulsions to rational thinking – There will be friction (Dukkha) in the here and now – <strong>this friction has a negative valence (vedana)</strong> – it feels horrible until time passes and our hero forgets. If rational thinking is subordinated to Dukkha and our hero chases his object of passion ….. there is no Dukkha in the here and now … the can is kicked down the road. Either adverse real-world consequences follow, or the rational mind generates regret, remorse and lamentation at some point down the road – lots of negative valence. Contextually letting one mechanism win consistently within that context leads to the other mechanism losing power ….. within that context. But neither of the two mechanisms go completely silent universally across all possible life circumstances … ever.</p>
+<p>This is Dukkha! The friction that has negative valence, it feels bad! And it is continuous, all pervasive, always hidden below the surface of the hyper distracted mind. Dukkha can be eliminated by eliminating accumulated wisdom and the faculty of rational thinking, this will probably require a lobotomy and therefore isn’t recommended. It can also be eliminated by eliminating the 10 fetters or the Sanyojanas, or the compulsions. It requires systematic, structured, hard work … but it is very very do-able! If you are a human being, you can overcome the sanyojanas, it is your birth right.</p>
+</section>
+<section id="sanyojana-fetters-that-bind-us-to-a-world-of-suffering-or-samsara">
+<span id="awakeningprojectfetters"></span><h2>Sanyojana (Fetters that bind us to a world of suffering - or samsara)<a class="headerlink" href="#sanyojana-fetters-that-bind-us-to-a-world-of-suffering-or-samsara" title="Link to this heading">#</a></h2>
+<p>Each and every one of the Sanyojanas are latent tendencies which get triggered when the mind contacts its outer as well as inner world. Their names are in line with how these tendencies manifest. But the manifestation is not the Sanyojana. The Sanyojana is the latent tendency that waits for a suitable trigger and against that trigger it generates an inner drive leading to a particular manifestation. These tendencies are heavily practiced and thus reinforced default mechanism for the mind to ensure safety and security for the organism. By virtue of being a human being, we all have these latent tendencies that manifest in different strengths for different people in the face of triggers.</p>
+<ol class="arabic simple">
+<li><p><strong>Satkaya-Drishti - The creation of compelling and sticky views regarding our identity</strong></p></li>
+</ol>
+<p>We need a sense of self to navigate our living room otherwise we would keep bumping into the furniture. We need to know that we are this body that is trying to step over that stool and go and sit on that couch. Similarly we need a sense of self to navigate our complex conceptual lives, we need to know that we are the wage slave that needs to show up at the work place and slog in order to put food on the table. We need to know that we are the monk who needs to show up on time and deliver a discourse so that the villagers who thus receive the benefit fulfill their end of the social contract and make donations, within their constraints, in order to support the monastery. This is a natural function of the mind. A perfectly rational requirement. But the sense of self that gets created is imbued with an urgency and solidity and demands that it be maintained and defended. The ‘solidity’ or ‘weight’ and an illusion of reality and reliability (or nityata) is the problem.</p>
+<p>For example, if you find yourself wearing heavy fur clothing, living inside an igloo somewhere in the arctic munching on seal and penguin …. well! .. you are most probably an Eskimo! If you wake up every morning with an alarm clock, see a brown face in the mirror while shaving, get into an overcrowded local train in perilously dangerous conditions to travel to the business district and work your ass off to pay for your kid’s engineering education … damn dawg! …. congratulations … you are most probably an Indian!</p>
+<p>To see one’s self and to form an opinion of what one is and orient one’s self in the world is not Satkaya-Drishti. To extend one’s sense of self to such a classification, and to identify with the classification rather than see it as a convenience to navigate the world is Satkaya-Drishti. To hold Eskimo’ness’ or Indian’ness’ or male’ness’ or earning member of the family’ness’ as some kind of property of the self and to feel compelled to defend it, to lament when it is in danger is due to Satkaya Drishti. Its due to the weight that Satkaya Drishti gives to a perfectly rational assessment of our circumstances that our assessment becomes a problem</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>I am this body, I am this gangrenous limb, I am this mind, I am this psychiatric problem</p></li>
+<li><p>I am these kinds of likes and dislikes, I am these set of preferences or personality traits</p></li>
+<li><p>I am a man, I am a woman, I am neither</p></li>
+<li><p>I am a son, daughter, parent, brother, sister</p></li>
+<li><p>I am Indian, I am Pakistani, I am South African, I am European, I am American, I am a globe trotting global citizen</p></li>
+<li><p>I am a theist, I am an atheist, I am an agnostic, I am a Sikh, Hindu, Christian, Buddhist, Jain, Muslim</p></li>
+<li><p>I am a spiritual seeker, I am a yogi, I am a putthujana or village idiot, I am a conqueror of fetters, I am the one who is done, I am a finder, I am one who does not seek anymore</p></li>
+<li><p>I am a carpenter, a plumber, a life coach, a CEO, a fisherman, a software developer</p></li>
+<li><p>I am honest, I am ethical, I am a ruffian, I am a thief, I am a pirate, a marauder</p></li>
+<li><p>I am worthy of friendship, I am a formidable foe.</p></li>
+<li><p>I am shy, I am introverted, I am weak, I am strong, I am outgoing and gregarious, I am a dashing debonair Don Juan reincarnated</p></li>
+</ul>
+</div></blockquote>
+<p>Each and every expression of Satkaya-Drishti could be a statement of fact, it could be true … or not …. but that’s not what makes it a problem. What makes it a problem is that a solid sense of identity gets created depending on stuff that is salient to us in the moment. And we feel compelled to defend this identity, to fight, kick, punch in order to protect it against any perceived threats from people or from life circumstances.</p>
+<p>These aren’t necessarily views that we hold over our lifetime. They form, they stay, they fall apart all depending on context and life circumstances. The views aren’t the fetter. The latent tendency to create them and impart them with ‘weight’ is the fetter.</p>
+<ol class="arabic simple" start="2">
+<li><p><strong>Vi-chikitsa - Pernicious doubt over imagined problems regarding one’s present and future safety and wellbeing</strong></p></li>
+</ol>
+<p>To analyze and understand a particular topic is ‘Chikitsa’. To study experiment and solve a solvable problem is ‘Chikitsa’. To examine weigh judge and treat an ailment is ‘Chikitsa’. This is the application of intelligence.</p>
+<p>Vi-chikitsa is a perversion of this ability. To pick up something and think about it to and needlessly hassle oneself over, completely independent of whether its a solvable problem, or whether its an actual problem that even needs to be solved or even has a solution to be arrived at using discursive analysis. To be a hypochondriac and try and treat a disease that does not actually exists is Vi-chikitsa. To get on a carefully considered and evaluated weight loss problem and then continuously hassle one’s self over whether or not you made the right choice without even giving the program any time to do its fucking job … is Vi-chikitsa</p>
+<p>Will, I survive this pandemic? Will I get my next promotion at work? Will she say yes? Will the bus be on time? Did I lock the door when I left for work? Am I doing the right thing by pursuing this course in my career? Will my business succeed? Will I ever be employed? Each such question may arise intellectually and be intellectually answered and set to rest. But that’s not how stuff works … does it?</p>
+<ol class="arabic simple" start="3">
+<li><p><strong>Shila-vrat-paramarsh - Consultation of rituals and vows to guide conduct</strong></p></li>
+</ol>
+<p>To mindlessly apply ritual actions believing them to have the power to provide reliable, permanent or at least repeatable satisfaction of wants and needs.</p>
+<p>If I exercise everyday or go to the gym everyday I will be happy and healthy for ever and ever and ever. If I always have a smile on my face and a kind word towards all and sundry I will always be peaceful. If I call my parents religiously every week, my relationships will be smooth and frictionless. If I select a set of rituals to follow and follow them religiously …. I am set to consistently experience happiness and satisfaction.</p>
+<p>Everybody has a plan until they get punched in the face - Mike Tyson</p>
+<ol class="arabic simple" start="4">
+<li><p><strong>Kama-raga - The compulsion to possess that which provides positive vedana</strong></p></li>
+</ol>
+<p>To be compelled (addicted) to seek pleasant experiences. to be compelled to possess the source of the pleasant experience is Kama raga.</p>
+<p>Gluttony leading to overeating. Exhausting one’s self in the gym for the endorphins. Smoking cigarettes despite knowing the consequences. Constantly plugging in earphones and listen to music/dhamma talks to get a continuous drip of positive vedana. And yes that smoking hot intern who’s recently joined the marketing team .. :)</p>
+<ol class="arabic simple" start="5">
+<li><p><strong>Vyapada - Belligerence towards that which provides negative vedana</strong></p></li>
+</ol>
+<p>To be compelled/ addicted towards the avoidance of negative experiences and hold persistent hostility towards the source of the negative vedana. Forced into mental positions of all or nothing thinking. Of battling for survival when survival isn’t even threatened. Nothing is threatened but yet it seems in the moment that everything is threatened.</p>
+<p>To never go to sleep after an argument with your spouse or partner … but … to stay awake the whole night …. plotting your revenge! … and hating yourself for this self-flagellation. To avoid forming alliances and beneficial relationships with people due to some pet peeve, some bee in the bonnet that won’t let you rest.</p>
+<ol class="arabic simple" start="6">
+<li><p><strong>Rupa-raga - The pull towards form; (7) Arupa-raga - the pull towards the formless</strong></p></li>
+</ol>
+<p>The jhana progression arc and their classification in terms of ‘Rupa’ and ‘Arupa’ is flawed. It misleads into seeing a connection between the jhana progression and Rupa raag and Arupa raag. The jhanas are best classified as the ‘Jhanas’ and the ‘Ayatanas’. Nothing to do with these fetters whatsoever. Whether one knows the difference between a jhana and a banana … it doesn’t matter … them fetters, they don’t care! If you are a human being and never of heard of Sid, never meditated, don’t know how .. doesn’t matter … you got those fetters!</p>
+<p>Rupa-raga: I want ‘chocolates’. I like ‘movies’. I collect ‘stamps’.</p>
+<p>Arupa-raga: I want ‘ ….’. The wanting is more important than that which I want. I like ‘…..’ The liking is more important than that which I like I collect ‘……’ The collecting is more important than that which I collect.</p>
+<p>When I experience Rupa raga - I am pushed into collecting stamps, when I experience Arupa raga - I am pushed into collecting …. the thing I am collecting doesn’t matter. When I experience Rupa raga - I am pushed into watching ‘House of Cards’ When I experience Arupa raga - I am pushed into watching …… it doesn’t matter what I am watching as long as I am watching something!</p>
+<p>Do you remember the last time you played a computer game - maybe Age of Empires. You didn’t enjoy it after an hour, but you just kept playing … god knows why! Computer game, reading a book, planning your career, planning your wedding, going over memories of the past over and over and over. You don’t feel the lust for ownership, or hatred towards the opposite, you just do this as if its super important. Reminiscing, regretting, loving, hating, fantasizing ….. about ‘something’ … or as an end in itself. The pull towards form or the pull towards the formless!</p>
+<ol class="arabic simple" start="8">
+<li><p><strong>Audhatya - Restlessness</strong></p></li>
+</ol>
+<p>One just can’t sit still. One doesn’t have a still mind. Continuously scanning the environment for opportunities or threats. Not because one has decided to do it. But …. just because. One may start with a clear objective of doing something in life. Something as simple and immediate as driving down to pick up groceries or engage in a 4 year long degree program. One may decide to sit still for half an hour and place attention on the breath. The restless mind does short work of all projects that require stability and stillness of mind or/as well as body.</p>
+<ol class="arabic simple" start="9">
+<li><p><strong>Maan - The neck</strong></p></li>
+</ol>
+<p>In life when circumstances run us to the ground, we say to ourselves - it doesn’t matter, at least I walk with my head held high! Unbowed! Unbroken! We have an innate drive to establish superiority, equality or to accept subordination to …. everything that matters. Be it a person, an object, a task at hand, society in general, a life circumstance, a debilitating disease, a job/career, a colleague at work, a child at home, a parent on the phone - it doesn’t matter. We have to measure ourselves against that which we apprehend and decide whether to look it in the eye like an equal, look down upon it, or look up to it. Unless such a position is searched for and found against everything that’s contextually salient, we are not at peace.</p>
+<p>REBT (Rational Emotive Behavioral Therapy) attempts to identify what it calls ‘musturbations’. I must do well … or else! I am a fair minded person, people around me must treat me fairly … or else! The world and life in general must be this way or that way …. or else! In REBT these are deeply embedded mental models regarding the self, significant others and the world at large. Driven by the insistence of equality, of fairness, of right and wrong - But always at the center of it is ‘Me’ … the hero of the story. In my view, all of them are deeply intertwined with the fetter of maan and cause cognitive dissonance that leads to tiny traumas that pile up through out our lives and when left unprocessed lead to the experience of depression and anxiety.</p>
+<p>Every quest has a champion and every champion has a nemesis. This is my nemesis. The Game Boss.</p>
+<ol class="arabic simple" start="10">
+<li><p><strong>Avidya - Ignorance - but that is bad nomenclature</strong></p></li>
+</ol>
+<p>This fetter is the latent tendency of the mind to strongly resist any and every change in its mental models regarding its self views and world views. It is not as simple as … I am ignorant, I will gain knowledge, I will no longer be ignorant!</p>
+<p>The mind actively resists gaining knowledge that challenges its operating principles.</p>
+<p>This fetter guards all mental models including that of a flat earther’s but it guards the other 9 fetters with a vengeance.</p>
+<p>Through the course of the awakening project it generates all sorts of impediments at various points in the journey. From sloth and torpor in the initial periods to ridiculous narcolepsy like effects towards the end. From naughty thoughts in the beginning to severely powerful sexual hallucinations towards the end. Every lonely housewife, every pool-boy or washing machine repairman, Every center spread model you have feasted your eyes on will make an appearance to throw you off the project! Every fantasy of being a celebrity, an aristocrat, a business magnate, a champion tennis player …. the mind will pick it all up and tempt you with it to stop! Just …. Stop!</p>
+<p>This was Sid’s nemesis his Game Boss, apparently.</p>
+</section>
+<section id="the-broad-structure-of-the-awakening-project">
+<h2>The Broad Structure of the Awakening Project<a class="headerlink" href="#the-broad-structure-of-the-awakening-project" title="Link to this heading">#</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Notes on attitude, approach, practical guidance, meta level advice</p></li>
+<li><p>Note on the Smriti-Upasthana - The four foundations of mindfulness</p></li>
+<li><p>Bhavana - cultivation of skills necessary to carry out investigations. Theory and practice instructions</p></li>
+<li><p>Jhanas - prerequisites - Theory and practice instructions</p></li>
+<li><p>Jhanas and Ayatanas - The formed and formless jhanas</p></li>
+<li><p>Shrotapanna Marga - Stream Entry - Using the rubric of 6 sense bases</p></li>
+<li><p>Sakrdagami / Anagami Marga - Once returner / Non returner - Using the rubric of Pratitya Samutpad (Dependent Origination)</p></li>
+<li><p>Arhat Marga - Using the rubric of Panch Skandha (5 aggregates)</p></li>
+<li><p>Annexure on Nirvikalpa Samadhi</p></li>
+<li><p>Additional annexures</p></li>
+</ol>
+</div></blockquote>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="preface.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Preface</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="meta.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Essays on meta level advice, approach, attitude etc.</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-scope">Project scope</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dukkha-the-suckiness">Dukkha - The Suckiness</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sanyojana-fetters-that-bind-us-to-a-world-of-suffering-or-samsara">Sanyojana (Fetters that bind us to a world of suffering - or samsara)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-broad-structure-of-the-awakening-project">The Broad Structure of the Awakening Project</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Adivader
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2024, Adivader.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
